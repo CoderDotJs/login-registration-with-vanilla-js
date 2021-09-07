@@ -47,7 +47,7 @@ const signup = (signUser, signPass1, signPass2) => {
     
     try {
         if(pass1 !== pass2){
-            console.log('not same')
+            alert('Password didnt match')
             console.log(pass1, pass2)
         }
         else{
