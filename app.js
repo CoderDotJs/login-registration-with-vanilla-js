@@ -54,7 +54,8 @@ const signup = (signUser, signPass1, signPass2) => {
             newObj.name = user;
             newObj.password = pass1;
             const objStringify = JSON.stringify(newObj)
-            localStorage.setItem(`${user}`, objStringify)
+            localStorage.setItem(`${user}`, objStringify);
+            alert('Now please login')
         }
     } catch (error) {
         console.log(error)
